@@ -73,3 +73,68 @@ To contribute to this project, follow these steps:
 ### Modifying the README
 
 To modify the README, you can open it in any text editor or markdown editor and make changes using the syntax shown above. Save your changes, and they will be reflected when viewed on platforms like GitHub.
+
+# 🎧 Headphones Web Page
+
+This project is part of the **ALX Frontend Specialization** and focuses on replicating a professional, responsive web design using **HTML and CSS** based on a Figma design file. The design showcases a modern landing page for a headphone brand with attention to responsiveness and interactivity.
+
+---
+
+## 📁 Project Structure
+
+- **Repository**: `alx_html_css`
+- **Directory**: `headphones`
+- **File**: `README.md`
+
+---
+
+## 🎨 Figma Design Access
+
+To access the Figma design used for this project:
+
+1. Create a free account at [https://figma.com](https://figma.com)
+2. Open the shared Figma project using the provided link.
+3. Click **“Duplicate to your Drafts”** to edit and inspect all design details.
+
+> 💡 If you cannot access the project, a copy of the `.fig` file or exported assets should be provided.
+
+---
+
+## ✨ Features
+
+- **Responsive Design**  
+  Automatically switches to mobile layout when screen width is **480px** or less.
+
+- **Interactivity**
+  - **Links hover/active state**: `#FF6565`
+  - **Button hover/active state**: `opacity: 0.9`
+
+- **Centered Content**  
+  The main content is centered with a maximum width of **1000px**.
+
+---
+
+## 🖼️ Fonts Used
+
+Make sure to install the following fonts used in the Figma design:
+
+- [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
+- Spin-Cycle-OT (included in the project assets or downloadable from design resources)
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+
+---
+
+## 🚀 Getting Started
+
+To view the project:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/alx_html_css.git
+   cd alx_html_css/headphones
