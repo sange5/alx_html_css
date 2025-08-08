@@ -1,0 +1,52 @@
+.results {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.results h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.pentagons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.pentagon {
+  width: 120px;
+  height: 120px;
+  background: #ff5252;
+  clip-path: polygon(
+    50% 0%,
+    100% 38%,
+    82% 100%,
+    18% 100%,
+    0% 38%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: transform 0.3s ease;
+}
+
+.pentagon:hover {
+  transform: scale(1.1);
+}
+
+.pentagon span {
+  font-size: 1.4em;
+}
+
+.pentagon p {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+  font-weight: normal;
+}
