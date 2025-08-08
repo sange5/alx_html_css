@@ -1,0 +1,446 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(../source-sans-pro/SourceSansPro-Bold.otf)
+    url(../source-sans-pro/SourceSansPro-Semibold.otf)
+    url(../source-sans-pro/SourceSansPro-Light.otf)
+    url(../source-sans-pro/SourceSansPro-ExtraLight.otf)
+    url(../source-sans-pro/SourceSansPro-ExtraLightIt.otf)
+    url(../source-sans-pro/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+  font-family: "SpinCycle";
+  src: url(../Spin-Cycle-OT/spincycle_ot.otf)
+  url(../Spin-Cycle-OT/spincycle_3d_ot.otf);
+}
+
+
+:root {
+  --primary: #ff6565;
+  --font: #071629;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* ............Header Styles................. */
+.menu{
+  display: none;
+}
+
+header {
+  margin-top: 23px;
+}
+
+header nav {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+
+header nav ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+header nav ul a:hover {
+  color: var(--primary);
+  transition: 0.2s;
+}
+
+.logo{
+  padding-right: 350px;
+}
+
+
+
+/* ............Hero 1 Styles................. */
+
+.hero-1-wrapper {
+  background: url(./images/headphones_hero_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1px;
+}
+
+
+.hero-1-container {
+  max-width: 1000px;
+  width: 640px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 300px;
+  margin-bottom: 115px;
+  
+}
+
+.hero-1-container h1 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.hero-1-container h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.btn {
+  background-color: var(--primary);
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 13px 30px;
+  margin: 40px 0 65px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 8px 8px 8px 0 rgba(255, 101, 101, 0.2), 4px 4px 4px 0 rgba(255, 101, 101, 0.15) ;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transition: 0.2s;
+}
+
+.hero-1-container p {
+  font-size: 1rem;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+/* ............What We Do Styles................. */
+.what-we-do-container {
+  max-width: 1000px;
+  width: 640px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 110px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.part-1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 97px;
+}
+
+.part-1 h2 {
+  margin-bottom: 40px;
+  color: var(--font);
+  font-size: 32px;
+}
+
+.part-1 p {
+  width: 640px;
+  font-size: 1rem;
+  line-height: 26px;
+  color: var(--font);
+}
+
+.part-2 {
+  display: flex;
+  gap: 58px;
+}
+
+.part-2 div {
+  width: 207px;
+}
+
+.part-2>div>h3 {
+  font-size: 18px;
+  margin: 24px 0 13px;
+  color: var(--font);
+}
+
+.part-2>div>p {
+  width: 207px;
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--font);
+}
+
+/* ............Our Results Styles................. */
+.hero-2-wrapper {
+  background: url(./images/headphones_hero_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.our-results-container {
+  max-width: 1000px;
+  width: 640px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 110px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-results-container h2 {
+  font-family: "SpinCycle", sans-serif;
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.our-results-container p {
+  font-size: 1rem;
+  line-height: 26px;
+  margin-bottom: 56px;
+  color: #ffffff;
+}
+
+.dots{
+  display: flex;
+  gap: 76px;
+}
+
+.pentagon {
+  width: 190px;
+}
+
+.dots>div>div{
+  position: relative;
+  bottom: 100px;
+}
+.dots div div h3 {
+  font-size: 46px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 26px;
+}
+
+.dots div div p {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 26px;
+  margin-top: 20px;
+}
+
+/* ............Contact styles................. */
+.contact-us-container {
+  max-width: 1000px;
+  width: 335px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 110px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-us-container h3 {
+  font-family: "SpinCycle", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+form {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  margin-bottom: 45px;
+  font-family: "SpinCycle", sans-serif;
+  font-size: 14px;
+}
+
+form label input, textarea {
+  width: 100%;
+  outline: none;
+  border: 0;
+  padding: 0;
+}
+
+.dividor {
+  height: 1px;
+  background-color: #0716298f;
+  margin-top: 10px;
+}
+
+form label span {
+  position: relative;
+  top: 20px;
+  right: 80px;
+}
+
+/* ............Footer styles................. */
+
+footer {
+  background-color: #071629;
+  color: #ffffff;
+  padding: 90px 200px 125px;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-container>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container div div {
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 71px;
+  font-size: 12px;
+  color: #ffffff8d;
+}
+
+
+
+
+/* ............Responsiveness: Tablet................. */
+
+@media only screen and (max-width: 820px) {
+  header nav {
+    max-width: 820px;
+    width: 685px;
+  }
+
+  .part-2 {
+    display: grid;
+    grid-template-columns: 207px 207px;
+    gap: 58px;
+  }
+
+  .dots{
+    display: grid;
+    grid-template-columns: 190px 190px;
+    gap: 76px;
+    row-gap: 42px;
+  }
+
+  .dots div {
+    height: 190px;
+  }
+
+  footer {
+    max-width: 820px;
+    padding: 0;
+  }
+
+  .footer-container {
+    max-width: 714px;
+    margin: 0 auto;
+    padding: 101px 44px 110px 63px;
+  }
+
+  .footer-container>div {
+    align-items: center;
+  }
+
+  .copyright {
+    margin-top: 66px;
+  }
+}
+
+/* ............Responsiveness: Mobile................. */
+
+@media only screen and (max-width: 480px) { 
+  .hero-1-wrapper {
+    background-position-x: -400px;
+  }
+
+  .hero-2-wrapper {
+    background-position-x: -400px;
+  }
+
+  header nav {
+    width: 100%;
+    gap: 66px;
+  }
+
+  .menu {
+    display: block;
+    margin-left: 20px;
+  }
+
+  header ul a {
+    display: none;
+  }
+
+  .hero-1-container {
+    width: 100%;
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+
+  .hero-1-container h1 {
+    margin-bottom: 5px;
+  }
+
+  .hero-1-container button {
+    margin-top: 20px;
+  }
+
+  .what-we-do-container {
+    width: 100%;
+  }
+
+  .part-1 {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .part-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .our-results-container {
+    width: 100%;
+  }
+
+  .dots{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+  }
+
+  .footer-container {
+    width: 100%;
+    padding: 48px 106px 34px;
+  }
+
+  .footer-container>div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+    gap: 45px;
+  }
+}
